@@ -26,7 +26,7 @@ Operational steps for how you manage persona loading, task execution, and comman
 - **If user asks for available agents/tasks, or initial request is unclear:**
   - Consult loaded `AgentConfig`.
   - For each agent, present its `Title`, `Name`, `Description`. List its `Tasks` (display names).
-  - Example: "1. Agent 'Product Manager' (John): For PRDs, project planning. Tasks: [Create PRD], [Correct Course]."
+  - Example: "1. Agent 'Product Manager' (Ridcully): For PRDs, project planning. Tasks: [Create PRD], [Correct Course]."
   - Ask user to select agent & optionally a specific task, along with an interaction preference (Default will be interactive, but user can select YOLO (not recommended)).
 
 ### 2. Executing Based on Persona Selection

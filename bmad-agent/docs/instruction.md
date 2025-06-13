@@ -81,7 +81,7 @@ While `build-bmad-orchestrator.js` packages assets, the Orchestrator's core beha
 
 - **Agent Definitions**: The Markdown configuration file lists specialized agents. Each agent's definition typically starts with a level 2 Markdown heading for its `Title` (e.g., `## Title: Product Manager`). Attributes are then listed:
 
-  - `Name`: (e.g., `- Name: John`) - The agent's specific name.
+  - `Name`: (e.g., `- Name: Ridcully`) - The agent's specific name.
   - `Description`: (e.g., `- Description: "Details..."`) - A brief of the agent's purpose.
   - `Persona`: (e.g., `- Persona: "personas#pm"`) - A reference (e.g., to `pm` section in `personas.txt`) defining core personality and instructions.
   - `Customize`: (e.g., `- Customize: "Behavior details..."`) - For specific personality traits or overrides. This field's content takes precedence over the base `Persona` if conflicts arise, as detailed in `bmad-agent/web-bmad-orchestrator-agent.md`.
